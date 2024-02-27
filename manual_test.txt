@@ -1,0 +1,10 @@
+1) browse to https://postimages.org/
+2) click "Choose images"
+3) select file representing president Kekkonen to upload (e.g. kekkonen.jpg) in OS specific window
+4) wait until file has uploaded
+5) copy link to image ( On the Link: row, e.g. https://postimg.cc/xJKZw2gK )
+6) browse to link extracted in step 5)
+7) verify that picture file represents president Kekkonen
+
+Kekkonen image used here is available in URL https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Urho-Kekkonen-1977-c.jpg/1200px-Urho-Kekkonen-1977-c.jpg
+
