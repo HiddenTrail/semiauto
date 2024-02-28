@@ -1,3 +1,3 @@
 #!/bin/sh
 timestamp=$(date +"%Y%m%d_%H%M%S")
-robot --outputdir ./results_$timestamp $@
+robot -L trace --outputdir ./results_$timestamp $@
