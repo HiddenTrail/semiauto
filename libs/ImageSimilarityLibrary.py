@@ -1,11 +1,14 @@
+# disable misleading E1101: Module 'cv2' has no '***' member (no-member)
+# disable C0103: Module name "ImageSimilarityLibrary" doesn't conform to snake_case naming style (invalid-name)
+# pylint: disable=E1101,C0103
+
+import urllib.request
 from robot.api.deco import keyword, not_keyword
 import cv2
 import numpy as np
 from PIL import Image
 from skimage.metrics import structural_similarity as ssim
-from PIL import Image
 import imagehash
-import urllib.request
 
 class ImageSimilarityLibrary:
     @keyword("Assert Images Are Similar")
