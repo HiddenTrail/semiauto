@@ -1,4 +1,4 @@
-# semiauto
+# test-automation-levels
 This repository contains examples of three levels of test execution:
 
 1) manual testing
