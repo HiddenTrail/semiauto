@@ -5,12 +5,21 @@ This repository contains examples of three levels of test execution:
 2) semiautomatic testing
 3) fully automatic testing
 
+Below are described three different approaches to two main tasks of an example test:
+1) upload image file
+2) verify that uploaded image is correct one
+
 ## manual test
 Manual test is described in file [manual_test.txt](https://github.com/HiddenTrail/semiauto/blob/main/manual_test.txt).
+
+Everything including the main tasks of uploading and verifying are done wholly manually.
 
 ## semiautomatic test
 Semiautomatic test uses the [Dialogs library](https://robotframework.org/robotframework/latest/libraries/Dialogs.html).
 The test itself is written as Robot Framework test case but it offers instructions to tester via dialogs made with [Dialogs library](https://robotframework.org/robotframework/latest/libraries/Dialogs.html).
+
+Main tasks of uploading and verifying are done manually after receiving a prompt from the [Dialogs library](https://robotframework.org/robotframework/latest/libraries/Dialogs.html), 
+everything else is done by the Robot Framework script.
 
 Semiautomatic test can be executed by:
 ```
@@ -30,6 +39,8 @@ These algorithms all return value between 0.0 (no match) and 1.0 (full match).
 For keyword `Assert Images Are Similar` all values should be 1.0 to succeed and for keyword `Assert Images Are Not Similar` all values should be less than 1.0.
 
 Keywords and algorithms are implemented as [Robot Framework Python library](https://github.com/HiddenTrail/semiauto/blob/main/libs/ImageSimilarityLibrary.py).
+
+Everything including the main tasks of uploading and verifying are done by the Robot Framework script.
 
 Fully automatic test can be executed by:
 ```
